@@ -1,0 +1,496 @@
+/* ----------------------------------------------------------------
+	Canvas: Construction
+-----------------------------------------------------------------*/
+.fbox-content p {
+    color: #363131;
+}
+
+#top-bar { background-color: #FFF; }
+
+.top-links-item > a {
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.top-links-sub-menu .top-links-item > a { font-size: 11px; }
+
+.header-extras li {
+	margin-left: 30px;
+	padding-left: 30px;
+	border-left: 1px solid #EEE;
+}
+
+.header-extras li:first-child {
+	margin-left: 0;
+	padding-left: 0;
+	border-left: 0;
+}
+
+.header-extras li i {
+	margin-top: 0 !important;
+	font-size: 36px !important;
+}
+
+.header-extras li .he-text {
+	padding-left: 15px;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 16px;
+	color: #888;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.header-extras li .he-text span {
+	font-weight: 600;
+	text-transform: none;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0;
+}
+
+#header { 
+	background-color: #f9f9f900;
+	border-bottom: 0px;
+}
+
+#header-wrap { background-color: rgba(255, 255, 255, 0); }
+
+
+.device-md .primary-menu i.icon-angle-down,
+.device-sm .primary-menu i.icon-angle-down,
+.device-xs .primary-menu i.icon-angle-down { display: none !important; }
+
+
+.testi-meta span { color: rgba(255,255,255,0.65); }
+
+.iconlist.iconlist-large { font-size: 17px !important; }
+
+.iconlist.iconlist-large li { margin: 8px 0 !important; }
+
+.iconlist.iconlist-large li i { top: 0; }
+
+.testi-content p {
+	font-style: normal;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	font-weight: 300;
+	font-size: 30px;
+	letter-spacing: 1px;
+	line-height: 1.6 !important;
+	margin-bottom: 40px;
+}
+
+.footer-big-contacts {
+	color: #333;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.footer-big-contacts span {
+	display: block;
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #888;
+	letter-spacing: 2px;
+}
+
+.dark .footer-big-contacts { color: rgba(255,255,255,0.8); }
+
+
+.team-title span {
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	margin-top: 2px;
+}
+
+.small-thumbs .entry-title h2 a {
+	text-transform: none;
+	letter-spacing: 0;
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 600;
+	-webkit-transition: color .6s ease;
+	-o-transition: color .6s ease;
+	transition: color .6s ease;
+}
+
+/* ----------------------------------------------------------------------------
+	Services Grid
+---------------------------------------------------------------------------- */
+
+.grid-border [class^=col-] {
+	margin: -1px 0 0 -1px;
+	padding: 30px;
+	border: 1px solid #EEE;
+}
+
+.grid-border [class^=col-]:hover {
+	background-color: rgba(241,128,82,0.1);
+	border-color: #F18052;
+	z-index: 1;
+}
+
+
+/* ----------------------------------------------------------------------------
+	Helper CSS Classes
+---------------------------------------------------------------------------- */
+
+.font-body { font-family: 'Roboto', sans-serif !important; }
+
+.font-primary { font-family: 'Source Sans Pro', sans-serif !important; }
+
+.t300 { font-weight: 300 !important; }
+
+.t400 { font-weight: 400 !important; }
+
+.t500 { font-weight: 500 !important; }
+
+.t600 { font-weight: 600 !important; }
+
+.t700 { font-weight: 700 !important; }
+
+.ls1 { letter-spacing: 1px !important; }
+
+.ls2 { letter-spacing: 2px !important; }
+
+.ls3 { letter-spacing: 3px !important; }
+
+.ls4 { letter-spacing: 4px !important; }
+
+.ls5 { letter-spacing: 5px !important; }
+
+.noheight { height: 0 !important; }
+
+.nolineheight { line-height: 0 !important; }
+
+
+/* ----------------------------------------------------------------
+	CSS Specific to the Construction Demo - RTL Support
+-----------------------------------------------------------------*/
+
+.rtl .header-extras li {
+	margin-right: 30px;
+	margin-left: 0;
+	padding-right: 30px;
+	padding-left: 0;
+	border-right: 1px solid #EEE;
+	border-left: 0;
+}
+
+.rtl .header-extras li:first-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: 0;
+}
+
+.rtl .header-extras li .he-text {
+	padding-right: 15px;
+	padding-left: 0;
+}
+
+.rtl .slider-caption {
+	right: -25px;
+	left: auto;
+}
+
+.rtl .slider-caption.slider-caption-right {
+	right: auto;
+	left: -25px;
+}
+
+/* Services Grid
+---------------------------------------------------------------------------- */
+
+.rtl .grid-border [class^=col-] { margin: -1px 0 0 -1px; }
+
+
+
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+html{scroll-behavior:smooth !important}
+
+.overlay-trigger-icon{
+	width: 50px !important;
+	height: 50px !important;
+	font-size: 2rem !important;
+	vertical-align: middle !important;
+}
+
+.button.button-border.button-fill::before {
+	background-color: #b41515;
+	color: white;
+}
+
+
+.section {
+    background-color: #ffffff;
+}
+
+#servicios{
+	position: relative;
+	height: 0px;
+	top: -45px;
+}
+
+#conocenos{
+	display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+#botonHero{
+	text-shadow: none !important;
+}
+
+#botonContacto{
+	color: black;
+	border-color: black;
+	display: inline-flex;
+}
+
+
+.modSlider{
+    max-width: 650px;
+	margin-top: 5vh;
+}
+
+.customTitle{
+    background-color: rgb(255, 255, 255);
+    margin: 3vh 0;
+    box-sizing: content-box;
+}
+
+.black{
+    color: rgb(0, 0, 0) !important;
+}
+
+
+#header-wrap{
+	overflow: hidden;
+}
+
+.slideTitle{
+	margin-top: 25vh;
+	background-color: rgba(255, 255, 255, 0.384);
+	padding: 1vw;
+}
+
+.transparent-header.floating-header .container {
+	background-color: rgb(255, 255, 255);
+	padding: 0 30px;
+	border-width: 6px;
+	border-color: black;
+}
+
+
+/* Logo */
+#logo{
+	padding: 0px 0;
+}
+
+/*----------bootstrap-navbar-css------------*/
+
+
+#container-header {
+	max-width: auto;
+	padding: 0;
+}
+
+
+.navbar-logo {
+	padding: 3px 0;
+	margin-left: 1.7vw;
+	color: #fff;
+}
+
+.navbar-mainbg {
+	background-color: #141414ef;
+	padding: 0px;
+}
+
+#navbarSupportedContent {
+	overflow: visible;
+	position: relative;
+}
+
+#navbarSupportedContent ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#navbarSupportedContent ul li a i {
+	margin-right: 10px;
+}
+
+#navbarSupportedContent li {
+	list-style-type: none;
+	float: left;
+}
+
+#navbarSupportedContent ul li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
+	display: block;
+	padding: 20px 20px;
+	transition-duration: 0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	position: relative;
+}
+
+#navbarSupportedContent>ul>li.active>a {
+	color: #d60000;
+	background-color: transparent;
+	transition: all 0.7s;
+}
+
+#navbarSupportedContent a:not(:only-child):after {
+	content: "\f105";
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 14px;
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	font-weight: 900;
+	transition: 0.5s;
+}
+
+#navbarSupportedContent .active>a:not(:only-child):after {
+	transform: rotate(90deg);
+}
+
+.hori-selector {
+	display: inline-block;
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	transition-duration: 0.45s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	margin: 0;
+	
+	
+}
+
+.hori-inside{
+	height: 75%;
+	width: 100%;
+	background-color: #b41515;
+	position: relative;
+	top: 13%;
+	left: 3.7%;
+	border-radius: 5px;
+
+}
+
+.active .menu-link{
+	color: white !important;
+	transition: all 0.3s;
+}
+
+.menu-link{
+	color: rgb(0, 0, 0) !important;
+	transition: all 0.3s;
+}
+
+
+
+@media(min-width: 992px) {
+
+
+	.navbar-expand-custom {
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+
+	.navbar-expand-custom .navbar-nav {
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+
+	.navbar-expand-custom .navbar-toggler {
+		display: none;
+	}
+
+	.navbar-expand-custom .navbar-collapse {
+		display: -ms-flexbox !important;
+		display: flex !important;
+		-ms-flex-preferred-size: auto;
+		flex-basis: auto;	
+	}
+
+	#navbarSupportedContent ul {
+		overflow: visible; 
+		position: fixed;
+		right: 4vw;
+	}
+
+	.numberMobile{
+		display: none;
+	}
+
+}
+
+
+@media (max-width: 991px) {
+
+
+	#navbarSupportedContent ul li a {
+		padding: 12px 30px;
+	}
+
+	.hori-selector {
+		display: none;
+	}
+
+	.hori-inside{
+		left: 1%;
+	}
+
+	.active .menu-link{
+		color: black !important;
+		font-weight: 800 !important;
+	}
+
+	.slideTitle{
+		
+		margin-top: 10vh;
+	
+	}
+
+	.modSlider{
+		max-width: 550px;
+		margin-top: 0vh;
+		text-align: center;
+	}
+
+	.swiper_wrapper .slider-caption h2 {
+		font-size: 7.5vw;
+	}
+
+	.customTitle{
+		background-color: rgba(255, 255, 255, 0.89);
+		margin: 2vh 0;
+		box-sizing: content-box;
+	}
+
+	.header-misc{
+		display: none;
+	}
+}
+
