@@ -1314,7 +1314,6 @@ window.scwEvents = window.scwEvents || {};
 			SEMICOLON.widget.accordions();
 			SEMICOLON.widget.counter();
 			SEMICOLON.widget.countdown();
-			SEMICOLON.widget.gmap();
 			SEMICOLON.widget.roundedSkill();
 			SEMICOLON.widget.progress();
 			SEMICOLON.widget.twitterFeed();
@@ -1544,33 +1543,8 @@ window.scwEvents = window.scwEvents || {};
 			SEMICOLON.initialize.functions( settings );
 		},
 
-		gmap: function( element ){
-			let googleSettings = {
-				element: element,
-				default: '.gmap',
-				file: 'https://maps.google.com/maps/api/js?key=' + googleMapsAPI,
-				error: 'Google Maps API could not be loaded',
-				execfn: false,
-				pluginfn: () => typeof google !== "undefined",
-				hiddendisable: true,
-				class: 'has-plugin-gmapapi'
-			};
-
-			let settings = {
-				element: element,
-				default: '.gmap',
-				file: 'plugins.gmap.js',
-				error: 'plugins.gmap.js: Plugin could not be loaded',
-				execfn: 'SEMICOLON_gmapInit',
-				pluginfn: () => typeof google !== "undefined" && $().gMap,
-				hiddendisable: true,
-				trigger: 'pluginGmapReady',
-				class: 'has-plugin-gmap'
-			};
-
-			SEMICOLON.initialize.functions( googleSettings );
-			SEMICOLON.initialize.functions( settings );
-		},
+		
+		
 
 		roundedSkill: function( element ){
 			let settings = {
